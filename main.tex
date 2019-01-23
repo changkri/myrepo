@@ -1,0 +1,273 @@
+%\documentclass[openany]{book}
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb} %for fancy L
+\usepackage{calrsfs} %for fancy L
+\usepackage{cancel}
+\usepackage{tabularx}
+\usepackage[hyphens]{url}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[titletoc,title]{appendix}
+\usepackage{subfig}
+\DeclareMathAlphabet{\pazocal}{OMS}{zplm}{m}{n} %for fancy L
+\usepackage{epsfig, float,array,tabu,longtable,}
+\usepackage{hyperref,wrapfig}
+\usepackage{enumerate}
+\usepackage{graphicx,psfrag}
+\usepackage{cite}
+\usepackage{sectsty}
+\usepackage{epstopdf}
+\usepackage{amsmath,esint, setspace, fancyhdr, amsfonts, bookmark, blindtext}
+\usepackage[normalem]{ulem}
+\usepackage{tikz}
+\usepackage{rotating}
+\usepackage[americanvoltages,fulldiodes,siunitx]{circuitikz}
+\usepackage{stackengine}
+\usetikzlibrary{matrix}
+\usepackage{multirow}
+\usepackage{multicol}
+\usetikzlibrary{shapes,backgrounds,patterns}
+\usetikzlibrary{mindmap,trees,decorations.markings}
+\usetikzlibrary{quotes,angles}
+\usepackage{verbatim}
+\renewcommand{\baselinestretch}{1}
+\setlength{\textheight}{8in}
+\setlength{\textwidth}{6.5in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0.25in}
+\usepackage{graphicx}
+\setlength{\topmargin}{0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\parindent}{.3in}
+\usepackage{listings}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+\doublespacing
+\begin{document}
+
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+ 
+%---------------------------------------------------------
+%	HEADING SECTIONS
+%---------------------------------------------------------
+
+\textsc{\LARGE One versus two hour frequency of intentional rounding}\\[1.5cm] % Major Heading
+\textsc{\Large A cluster randomized controlled trial}\\[0.5cm] % Major heading s
+\textsc{\large }\\[0.5cm] % Minor heading
+
+%---------------------------------------------------------
+%	TITLE SECTION
+%---------------------------------------------------------
+
+\HRule \\[0.6cm]
+{ \huge \bfseries Clinical Trial Protocol}\\[0.4cm] % Title of your document
+\HRule \\[1.0cm]
+ 
+%---------------------------------------------------------
+%	AUTHOR SECTION
+%---------------------------------------------------------
+
+%\begin{minipage}{0.4\textwidth}
+\begin{center} \large
+% \emph{Authors:}  
+\medskip
+{\textsc{\textbf{Aaron Conway} }}  \quad  {\textsc{\textbf{Linda Flockhart}}}  \quad {\textsc{\textbf{Zelia Souter}}}
+\quad {\textsc{\textbf{Dorina Baston}}} \quad {\textsc{\textbf{Joy Richards??}}} \quad {\textsc{\textbf{Barry Rubin??}}}% Your name, bold and small caps
+\end{center}
+%\end{minipage}
+
+\begin{center} \Large
+{\textsc{\textbf{Version 1} }} 
+\end{center}
+
+~
+%\begin{minipage}{0.4\textwidth}
+%\begin{flushright} \large
+%\emph{Supervisor:} \\
+%Dr. James \textsc{Smith} % Supervisor's Name
+%\end{flushright}
+%\end{minipage}\\[4cm]
+
+% If you don't want a supervisor, uncomment the two lines below and remove the section above
+%\Large \emph{Author:}\\
+%John \textsc{Smith}\\[3cm] % Your name
+
+%---------------------------------------------------------
+%	DATE SECTION
+%---------------------------------------------------------
+\begin{center}
+{\large \today}
+\end{center}
+ % Date, change the \today to a set date if you want to be precise
+
+%---------------------------------------------------------
+%	LOGO SECTION
+%---------------------------------------------------------
+%\vfill
+
+\newcommand*{\plogo}{\includegraphics[width=0.5\textwidth]{image001.jpg}}
+
+\plogo\\[1cm] % Include a department/university logo - this will require the graphicx package
+ 
+%---------------------------------------------------------
+
+\vfill % Fill the rest of the page with whitespace
+\end{titlepage}
+
+\newpage
+\tableofcontents
+\newpage
+
+% EXECUTIVE SUMMARY %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Executive Summary}
+\subsubsection*{Primary Objective}
+To test the hypothesis that one hour intentional rounding reduces patient falls in comparison to two hour intentional rounding. 
+\subsubsection*{Study Design}
+A cluster randomized controlled trial will be conducted. Within departments (or just across all departments) at the Peter Munk Cardiac Centre, the frequency that nurses are to perform intentional rounding will be randomly assigned as either one hour or two hours on a week to week basis (could be monthly instead). All other elements of the rounding process will remain the same.
+\subsubsection*{Outcomes}
+The primary outcome is the count of falls (reported in the incident reporting system) per patient hour. Secondary outcomes are:
+\begin{itemize}
+    \item Pain ratings (from EPR)
+    \item Completeness of documentation of intentional rounding (random audit on subset of days)
+    \item Missed vital sign measurements (EPR)
+    \item Patient satisfaction (random subsample of patients whose hospital admission was entirely within one cluster - HCAHPS)
+    \item Call light requests (observational audit on random subset of days)
+\end{itemize}
+
+\subsubsection*{Study Population}
+All patients admitted to the Cardiology and Cardiovascular Surgery department at the Peter Munk Cardiac Centre. 
+
+\subsubsection*{Sample Size}
+Information we need to get to calculate the sample size:
+\begin{itemize}
+    \item number of falls per month
+    \item number of patients in department
+    \item intra-cluster correlation coefficient (how similar the rate of falls are within a department per week)
+\end{itemize}
+
+
+\section{Background}
+
+
+
+
+\section{Objective}
+
+
+\section{Methods}
+\subsection{Participants}
+\subsubsection{Inclusion criteria}
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection{Exclusion criteria}
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsection{Intervention and control conditions}
+All patients....
+
+\subsubsection{One hour intentional rounding}
+
+\subsubsection{Two hour intentional rounding}
+
+\subsection{Outcomes}
+
+\subsubsection{Primary}
+
+\subsubsection{Seconday}
+
+\subsection{Procedures}
+
+\subsubsection{Enrolment}
+
+\subsubsection{Randomization sequence generation}
+
+\subsubsection{Allocation concealment}
+
+\subsubsection{Data collection}
+
+\subsection{Instruments}
+
+\subsubsection{HCAHPS}
+\subsubsection{Incident reporting system for falls}
+\subsubsection{Electronic patient record}
+\subsubsection{Call bell usage audit}
+
+\subsection{Sample size considerations}
+
+\subsection{Statistical analysis plan}
+
+\section{Funding}
+
+
+% BIBLIOGRAPHY %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section{References}
+
+\bibliographystyle{unsrt}
+\bibliography{bibliography}
+\fancyhead[R,OL]{bibliography}
+
+% APPENDIX A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section{Appendix A: }
+
+
+
+% APPENDIX H: BUDGET %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Appendix B: Complete Budget}
+\begin{table}[B]
+\centering
+\caption{Cost of Individual Components for TECS}
+\label{my-label}
+\begin{tabular}{ccc} 
+\textbf{Item Description}                                                    & \textbf{Total Price} \\ 
+Hermetically Sealed Flexible Thermistor Sensors, PFA Jacketed (K21) & 64.00       \\
+1.75in x 6in Aluminum  6061 Rod                                     & 18.57       \\
+Amazon: Electrical Tape                                             & 8.99        \\
+Amazon: Resistor Set                                                & 10.99       \\
+Amazon: RedBoard                                                    & 19.95       \\
+Amazon: 5PCS Thermistor Anycubic NTC 3950 100K                      & 8.99        \\
+Mouser: Thermopile Sensor                                           & 0.00        \\
+Amazon: 5pc N Mosfet                                                & 10.98       \\
+Amazon: 3pcs Solderless Breadboard                                  & 7.99        \\
+Amazon: 60V 5A Rectifier Diodes                                     & 9.99        \\
+McMasterCarr: Clear UV-Resistant Polycarbonate 12x12x0.125          & 7.90        \\
+DigiKey: Thermoelectic Module                                       & 85.73       \\
+DigiKey: Heat Sink                                                  & 8.09        \\
+DigiKey: Small Fan                                                  & 18.35       \\
+Adafruit: Thermopile 5V Sensor                                      & 41.85       \\
+Home Depot: BC Sanded Pine Plywood                                  & 21.75       \\
+Amazon: AC-DC 12V 5A                                                & 9.98        \\
+Amazon: Prime                                                       & 11.00       \\
+McMasterCarr: Surface Mount Hinge                                   & 4.50        \\
+McMasterCarr: Plastic Pull Handle                                   & 5.82        \\
+McMasterCarr: 10-24 0.50 Length Head Screw                          & 6.31        \\
+McMasterCarr: Steel Corner Bracket                                  & 20.00       \\
+AlliedDelec: 24V Fan 4414/2H                                        & 54.80       \\
+McMasterCarr: 10-24 1.00 Length Head Screw for Wood                 & 10.52       \\
+Brownell (mini Cord and INA122PA Amp)                               & 35.00       \\
+McMasterCarr: Steel Hex Nut 10-24                                   & 1.84        \\
+McMaster Screw 10-24 1.0 Length Phillips                            & 7.28        \\
+Amazon: 180kOhm Resistors                                           & 9.77        \\
+Kabelin Ace Hardware Store                                          & 3.00        \\
+Amazon: Protoboard Prototyping PCB Diy Soldering Universal          & 10.00       \\
+Stores                                                              & 15.00       \\
+Amazon: ACDC 12V 5A                                                 & 16.00      \\
+\textbf{Total} 														&
+\textbf{564.94}
+\end{tabular}
+\end{table}
+\end{document}
