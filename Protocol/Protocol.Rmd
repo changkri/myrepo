@@ -3,6 +3,7 @@ title: "Research Protocol"
 subtitle: "Title of study goes here"
 author: "Version 1"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
+bibliography: PMCC.bib 
 output:
   html_document:
     toc: true
@@ -25,18 +26,18 @@ output:
 
 orgName <- "UHNToronto" #associated with PRS log-in details
 orgStudy_id  <-  #must be unique study number. Sometimes it is the number associated with the funding received.
-briefTitle <- # Limit 300 characters
+briefTitle <- "One versus two hour intentional rounding" #Limit 300 characters
 studyAcronym  <- #limit 14 characters or n/a
-officialTitle <- # Limit 600 characters
+officialTitle <- "One versus two hour intentional rounding: A pragmatic randomized multiple-crossover trial" #Limit 600 characters
 primaryRegistry <-  #Add in clinicaltrials.gov identifier number once it is assigned
 secondaryNumbers <- #Secondary identifying numbers (if any) or N/A
-fundingStatement <- # Sources of monetary support
+fundingStatement <- "This study will be fully supported by funds received by the Principal Investigator, Aaron Conway, for his appointment as Chair of Cardiovascular Nursing Research at PMCC." # Sources of monetary support
 agency  <- #Lead sponsor
-respPartyType <- # Sponsor, Principal Investigator (responsible party designated by sponsor) or Sponsor-Investigator (individual who initiates and conducts study)
-investigator_username <- # Name [username] eg. Aaron Conway [aconway]
-investigator_title <- # Official title
-briefSummary <- #A short description of the clinical study, including a brief statement of the clinical study's hypothesis, written in language intended for the lay public. #Limit: 5000 characters.
-overallStatus <- #Not yet recruiting: Participants are not yet being recruited
+respPartyType <- "Aaron Conway" # Sponsor, Principal Investigator (responsible party designated by sponsor) or Sponsor-Investigator (individual who initiates and conducts study)
+investigator_username <- "aconway" # Name [username] eg. Aaron Conway [aconway]
+investigator_title <- "RN, PhD" # Official title
+briefSummary <- "The primary objective of this trial will be to compare the effects of performing intentional rounding every one or two hours on patient outcomes. A pragmatic, randomized, multiple-crossover trial will be conducted. The frequency that nurses perform intentional rounding within participating departments at the Peter Munk Cardiac Centre will be randomly assigned as either one hour or two hours on a monthly basis. All other elements of the rounding process will remain the same." #A short description of the clinical study, including a brief statement of the clinical study's hypothesis, written in language intended for the lay public. #Limit: 5000 characters.
+overallStatus <- "Not yet recruiting" #Not yet recruiting: Participants are not yet being recruited
 #Recruiting: Participants are currently being recruited, whether or not any participants have yet been enrolled
 #Enrolling by invitation: Participants are being (or will be) selected from a predetermined population
 #Active, not recruiting: Study is continuing, meaning participants are receiving an intervention or being examined, but new participants are not currently being recruited or enrolled
@@ -45,39 +46,39 @@ overallStatus <- #Not yet recruiting: Participants are not yet being recruited
 #Terminated: Study halted prematurely and will not resume; participants are no longer being examined or receiving intervention
 #Withdrawn: Study halted prematurely, prior to enrollment of first participant
 
-startDate <- # anticipated in yyyy-mm
+startDate <-"anticipated in 01 August 2019" # anticipated in yyyy-mm
 primaryCompletion <-  # anticipated in yyyy-mm The date that the final participant was examined or received an intervention for the purposes of final collection of data for the primary outcome
-studyCompletion <- # anticipated in yyyy-mm The date the final participant was examined or received an intervention for purposes of final collection of data
-interventionalSubtype <-   #Treatment, Prevention, Diagnostic, Supportive Care, Screening, Health Services Research, Basic Science, Device Feasibility, Other
-phase <- #N/A (for trials that do not involve drug or biologic products), Early Phase 1, Phase1/Phase 2, Phase 2, Phase2/Phase 3, Phase 3, Phase 4
-randomAssignment <- #Single group, Parallel, Crossover, Factorial, Sequential
-randomAllocation <-  #Randomized, Non-randomized
+studyCompletion <-"anticipated in 31 July 2020" # anticipated in yyyy-mm The date the final participant was examined or received an intervention for purposes of final collection of data
+interventionalSubtype <-"Other"   #Treatment, Prevention, Diagnostic, Supportive Care, Screening, Health Services Research, Basic Science, Device Feasibility, Other
+phase <-"N/A" #N/A (for trials that do not involve drug or biologic products), Early Phase 1, Phase1/Phase 2, Phase 2, Phase2/Phase 3, Phase 3, Phase 4
+randomAssignment <-"Crossover" #Single group, Parallel, Crossover, Factorial, Sequential
+randomAllocation <-"Randomized"  #Randomized, Non-randomized
 noMasking <-  #True, False
 maskedSubject <- #True, False
 maskedCaregiver <- #True, False
 maskedInvestigator <- #True, False
 maskedAssessor <-  #True, False
-sampleSize <- #planned sample size
+sampleSize <- "The study duration has been set to 12 months and the sample size will be the number of patients admitted to the participating wards during that time. This study duration was chosen based on feasibility considerations and to ensure numerous crossovers, enrollment throughout the calendar year as well as to accumulate a large sample size adequate to detect important difference in outcomes between groups. Based on historical data from the Peter Munk Cardiac Centre, we anticipate a sample size of approximately (6000) patients distributed between the one-hour and two-hour intentional rounding groups. Due to the current lack of established statistical methodologies for calculating sample size for multiple cross over trials with count outcome variables, we have not performed any sample size calculations for this study. However, the data obtained in this study could be used to facilitate modelling of sample size requirements for a larger scale study across multiple sites. Due to the current lack of established statistical methodologies for calculating sample size for multiple cross over trials with count outcome variables, we have not performed any sample size calculations for this study. However, the data obtained in this study could be used to facilitate modelling of sample size requirements for a larger scale study across multiple sites." #planned sample size
 
-criteria <- #textbox contaiing both inclusion and exclusion criteria for entry to clinicaltrials.gov
-inclusionCriteria <- # This is for the trial summary box in the protocol. Include a section of text (eg"1. Emergency admission. <br> 2." ) with <br> after each item not \n for new lines otherwise the markdown table will not be correct.
-exclusionCriteria <- # This is for the trial summary box in the protocol. Include a section of text (eg"1. Emergency admission. <br> 2." ) with <br> after each item not \n for new lines otherwise the markdown table will not be correct.   
+criteria <-"All patients admitted to the Cardiology and Cardiovascular Surgery inpatient wards at the Peter Munk Cardiac Centre." #textbox contaiing both inclusion and exclusion criteria for entry to clinicaltrials.gov
+inclusionCriteria <-"The study population includes inpatients in the participating wards of the Peter Munk Cardiac Centre. Inpatient units from the Peter Munk Cardiac Centre will participate. The cardiovascular surgery inpatient unit comprises two separate wings with a population comprising patients diagnosed with a heart disease requiring surgery such as coronary artery bypass grafting, valvular repair/replacement and adult congenital heart repair. The cardiology inpatient unit serves a population of patients with a heart condition including acute coronary syndrome, cardiac arrhythmia, cardiomyopathy and heart failure. The cardiac short stay unit serves primarily cardiac patients who are undergoing procedures that require admission to hospital for less than 2 days." # This is for the trial summary box in the protocol. Include a section of text (eg"1. Emergency admission. <br> 2." ) with <br> after each item not \n for new lines otherwise the markdown table will not be correct.
+exclusionCriteria <-"Duration of hospital admission spanned more than one randomization period (i.e two calendar months), or was admitted to a department in the Toronto General Hospital not participating in the study at any time during the current hospital admission." # This is for the trial summary box in the protocol. Include a section of text (eg"1. Emergency admission. <br> 2." ) with <br> after each item not \n for new lines otherwise the markdown table will not be correct.   
 
-healthyVolunteers <- #Yes, No
-gendersIncluded <- #Female, Male, Both
-genderBased <- #if applicable indicate if eligibility is based on self-representation of gender identitiy. Yes, No
-minAge <- #numeric with metric attached - e.g. 16 years or 'N/A (No Limit)'
-maxAge <- #numeric with metric attached - e.g. 16 years or 'N/A (No Limit)'
+healthyVolunteers <-"No" #Yes, No
+gendersIncluded <-"Both" #Female, Male, Both
+genderBased <-"No" #if applicable indicate if eligibility is based on self-representation of gender identitiy. Yes, No
+minAge <-"16 years" #numeric with metric attached - e.g. 16 years or 'N/A (No Limit)'
+maxAge <-"N/A" #numeric with metric attached - e.g. 16 years or 'N/A (No Limit)'
     
 #Central contact
-firstName <- 
-lastName <- 
-degrees <- 
-phoneNo <- 
-email <- 
+firstName <- "Aaron"
+lastName <- "Conway"
+degrees <- "RN, PhD"
+phoneNo <- "(416) 340-4654"
+email <- "aaron.conway@uhn.ca"
     
 #Overall official
-off_firstName <-
+off_firstName <- 
 off_lastName <- 
 off_degrees <- 
 off_affiliation <- # Full name of the official's organization. If none, specify Unaffiliated. 
@@ -98,9 +99,9 @@ ipdurl <- #insert url
 
 
 ```{r eval=FALSE, include = FALSE}
-primaryOutcome1 <- #limit 254 characters. Name of measure
-primaryOutcomeTime1 <- #limit 254 characters. Time point(s) at which the measurement is assessed. The specific duration of time over which each participant is assessed 
-primaryOutcomeDescription1 <- #Limit 999 characters. Description of the metric if not included in outcome measure title
+primaryOutcome1 <- "Count of falls (reported in the incident reporting system) per 1000 patient days" #limit 254 characters. Name of measure
+primaryOutcomeTime1 <-  #limit 254 characters. Time point(s) at which the measurement is assessed. The specific duration of time over which each participant is assessed 
+primaryOutcomeDescription1 <- "We define a fall as an event that results in an individual coming to rest inadvertently on a lower level, with or without injury." #Limit 999 characters. Description of the metric if not included in outcome measure title
 
 #Add in any subsequent primary and secondary outcomes here.
 #eg:  
@@ -113,10 +114,10 @@ primaryOutcomeDescription1 <- #Limit 999 characters. Description of the metric i
 
 
 ```{r eval=FALSE, include = FALSE}
-numberArms <- #numeric
-arm_label_1 <- #"Arm" means a pre-specified group or subgroup of participant(s) in a clinical trial assigned to receive specific intervention(s) (or no intervention) according to a protocol. Limit 62 characters
-arm_type_1 <- #Experimental, Active comparator, Placebo Comparator, Sham Comparator, No Intervention, Other
-arm_desc_1  <- #Description
+numberArms <- 2 #numeric
+arm_label_1 <- "One-hour vs. two-hour intentional rounding" #"Arm" means a pre-specified group or subgroup of participant(s) in a clinical trial assigned to receive specific intervention(s) (or no intervention) according to a protocol. Limit 62 characters
+arm_type_1 <- "Experimental" #Experimental, Active comparator, Placebo Comparator, Sham Comparator, No Intervention, Other
+arm_desc_1  <- "Intentional rounding during the months assigned one-hour frequency should be performed at least once every hour throughout the day and night." #Description
 #Assign objects for any subsequent arms here, including the label, type and description as per above (i.e. arm1).
 
 #When ready to upload to clinicaltrials.gov, ensure that all subsequent arms are added to the xml document using the add_arm() function
@@ -124,9 +125,9 @@ arm_desc_1  <- #Description
 
 
 ```{r eval=FALSE, include = FALSE}
-int_name_1 <- #for a drug - generic name (same as in associated arm)
-int_type_1 <- #Drug, Device, Biological/Vaccine, Procedure/Surgery, Radiation, Behavioural, Genetic, Dietary Supplement, Combination Product, Diagnostic Test, Other
-int_desc_1 <-  #Do not repeat from arm description
+int_name_1 <- "Frequency of intentional rounding" #for a drug - generic name (same as in associated arm)
+int_type_1 <- "Other" #Drug, Device, Biological/Vaccine, Procedure/Surgery, Radiation, Behavioural, Genetic, Dietary Supplement, Combination Product, Diagnostic Test, Other
+int_desc_1 <- "Intentional rounding during the months assigned two-hour frequency should be performed at least once every two hours throughout the day and night."  #Do not repeat from arm description
 #Assign objects for any subsequent arms here, including the name, type and description as per above.
 
 #When ready to upload to clinicaltrials.gov, ensure that all subsequent interventions are added to the xml document using the add_intervention() function
@@ -138,7 +139,10 @@ int_desc_1 <-  #Do not repeat from arm description
 |-------------------------------	|-----------------------	|
 | Study Principal Investigator: 	| [enter details]       	|
 | Sponsors:                     	| `r respPartyType`     	|
-| Protocol contributors:        	| [Names and affiliations]|
+| Protocol contributors:        	| [Linda Flockhart, Zelia |
+|                                 |  Souter, Dorina Baston, |
+|                                 |  Monika Kerril, Miranda |
+|                                 |  Hadzic ]               |
 | Trial identifiers:              | `r primaryRegistry`   	|
 
 
@@ -214,24 +218,41 @@ int_desc_1 <-  #Do not repeat from arm description
 # INTRODUCTION
 
 ## Background and rationale <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/background-and-rationale/)^ </font>
+Intentional rounding is being implemented in healthcare settings across the globe. It has been stated that more than 400 healthcare systems in the United States has implemented intentional rounding usinng the methods outlines by the Studer Group.\cite{studer2007} In the United Kingdom, the NHS has  from the Francis report and in the US to improve patient satisfaction)\cite{francis2013report}
 
+Bibliometric analysis of the published literature clearly demonstrate the increasing popularity of intentional rounding.\cite{hutchinson2017mapping} In the period between 2005 and 2015, there has been 38 separate studies published that evaluated some form on intentional rounding. A predominance of these studies has originated from the United States. \textit{Scripted} or \textit{structured} rounding dominated the literature as the most common method used to implement rounding. Several recent systematic reviews that have assessed the quality of studies that examined the effect of intentional rounding on patient outcomes have all highlighted the important point that further higher quality studies are required.\cite{christiansen2018intentional, toole2016systematic, hutchinson2017mapping, sims2018realist, flowers2016intentional} 
+
+Addressing the  intentional rounding \textit{evidence-void}, as it has been described by Hutchinson et al \cite{hutchinson2016intentional}, is vital. There have been \textbf{no} randomized trials conducted to evaluate either the effectiveness of intentional rounding in general or for specific components of how intentional rounding is implemented. Unfortunately this is not a unique situation for critical nursing interventions. For example, Cochrane reviews examining core nursing practices such as the effectiveness of repositioning for pressure ulcer reduction \cite{gillespie2014repositioning} and nursing handover processes\cite{lockwood2016best} identified only few studies. Richards et al\cite{richards2018fundamental} conducted a comprehensive systematic review that aimed to identify experimental studies examining the effects of nursing interventions for people's nutrition, elimination mobility and hygiene needs, which were deemed as \textit{fundamental nursing care}. Of 149 studies identified, all but 13 were low quality with significant risk of bias. Addressing this lack of evidence to inform core aspects of nursing care interventions in hospitals is achievable. Innovative research designs that incorporate strategies to minimize risk of bias when studying the effectiveness of alternative approaches to nursing care should be utilized. One way to accomplish this is to incorporate randomization into standard care so that routine data collected can be measured to compare the effectiveness of alternative approaches to nursing care. 
+
+Based on this prior evidence, it is reasonable to hypothesize that there may be differences in patient outcomes between the frequency that intentional rounding is performed by nurses. 
+
+-UHN context regarding implementation of intentional rounding\\
+-Outcomes that intentional rounding is thought to influence and mechanisms (i.e. falls, patient satisfaction)\\
+-Variation in components of intentional rounding (structured/unstructured, frequency, components, documentation)\\
+
+
+The completeness of documenting that all elements of intentional rounding has been shown to be poor.\cite{tucker2012outcomes}
+
+-Limitations in the evidence\\
+
+-Potential for adverse or unintended consequences to arise from implementation of intentional rounding. For example, a prominent finding reported in a realist synthesis of the literature about intentional rounding was that  nurses have explained that intentional rounding activities took up more time for complex and demanding patients, which consequently prioritized their needs over others.\cite{sims2018realist}
 
 
 ## Objectives <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/objectives/)^ </font>
 
-
+To compare the effects of performing intentional rounding every one or two hours on patient outcomes. 
 
 ## Trial design <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/trial-design/)^ </font>
 
+A pragmatic, randomized multiple-crossover trial will be conducted. Numerous short periods with frequent crossovers was selected to minimize the risk of changes over time in the patient population and usual care confounding trial results. The approach of using multiple crossovers in a pragmatic trial to compare the effects of standard treatments applied in clinical practice is established and has been previously used, including a high profile study recently published in the New England Journal of Medicine.\cite{self2018} 
 
-
-
+We decided that it is suitable to compare the effects of different frequencies of intentional rounding using a multiple crossover design because there is no risk of carryover effects. Intentional rounding will only have an effect on patient outcomes at the time it is being applied. Furthermore, compared with the prior observational studies conducted to evaluate the efficacy of intentional rounding, our trial design incorporates a randomization procedure to reduce risk of bias.
 
 # METHODS
 
 ## Study setting <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/study-setting/)^ </font>
 
-
+The trial will be conducted at the Toronto General Hospital, a tertiary care academic hospital with 432 beds in Toronto, Canada.
 
 ## Eligibility criteria <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/eligibility-criteria/)^ </font>
 
@@ -247,7 +268,11 @@ int_desc_1 <-  #Do not repeat from arm description
 
 ### Intervention description
 
+The University Health Network hospital departments that implement intentional rounding utilize a framework to ensure that the structure of rounding is focused on the patient experience. There are 6 major elements to be incorporated by the nurse in each instance of intentional rounding. These elements along with specific actions to be performed and their rationale are outlined in Figure \ref{fig1}. 
 
+The frequency of intentional rounding for the study periods will be communicated to nurses in several ways to ensure they adhere to the assigned conditions for the trial. These include:
+* Bedside reminders
+* Direct communication reminder at safety huddles
 
 >Intervention
 
@@ -290,7 +315,24 @@ int_desc_1 <-  #Do not repeat from arm description
 
 >Secondary outcomes
 
+* Fall injury:
+** A fall injury is defined as an injury that results from a fall, which may or may not require treatment. The injury can be temporary or permanent and vary in the severity of harm. Fall injuries will be categorized as minor, moderate or severe, according to the hospital classification system.
 
+* Completeness of documentation of intentional rounding: 
+** Log sheets have been developed by UHN for nurses to document which elements of intentional rounding have been performed. There is a checkbox for: .... (An example of the log sheet is provided in Section \ref{AppA}: Appendix A). The proportion of intentional rounding log sections completed at each rounding occurrence will be calculated. The proportion of rounding logs completed over a 24-hour period relative to the frequency of intentional rounding assigned to the randomization period (i.e. every one or two hours) will also be calculated. A composite of these two measures will also be calculated, being the proportion of the the total number of intentional rounding sections completed over the 24-hour period.
+
+* Patient satisfaction:
+** Previous research found that rounding increased satisfaction across all subscales of  Hospital Consumer Assessment of Healthcare Providers and Systems.\cite{brosey2015effectiveness} 
+
+* Call bell requests to nursing staff
+
+* Medication Errors?
+
+* Nutrition?
+    
+* Clinical deterioration (measured as the number of MET calls)?
+     
+* colorbox{yellow}{Pressure injuries?}
 
 
 ## Participant timeline <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/participant-timeline/)^ </font>
@@ -323,17 +365,22 @@ int_desc_1 <-  #Do not repeat from arm description
 
 The sample size for this study is `r sampleSize`.
 
+
 ## Recruitment <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/recruitment/)^ </font>
 
-
+All patients admitted to participating wards will be included unless they elect to 'opt-out' of having their data included in the study. An information letter will be provided to all in-patients in participating wards, explaining the study. If the patient elects to 'opt-out' they will be asked to complete a withdrawal of consent form and return it to the nursing staff.
 
 ## Allocation
 
+
+
 ### Sequence generation <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/sequence-generation/)^ </font>
 
+A statistician will generate a randomization sequence to assign the frequency for intentional rounding for each month of the calendar year. 
 
 ### Concealment mechanism <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/concealment-mechaninism/)^ </font>
 
+The treatment assignment will be communicated to Nurse Managers the week prior to the start of each month so that staff can be informed of the frequency that intentional rounding is to be performed. Concealing the allocation until this time may reduce risk of bias associated with anticipatory changes in nurse staffing depending on the upcoming allocation. 
 
 ### Implementation <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/implementation/)^ </font>
 
@@ -348,8 +395,9 @@ The sample size for this study is `r sampleSize`.
 
 ## Data collection <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/data-collection-methods/)^ </font>
 
-### Trial procedures and evaluations
+Data about the demographics of the patients admitted to participating wards during the study period will be collected from the Electronic Patient Record. Data on outcomes that are routinely collected (i.e. falls) will be collected from the Electronic Patient Record and the hospital Incident Reporting System. Data used in this study that are not routinely collected (such as call bell usage and patient satisfaction scores) will be collected by a trained Research Coordinator using electronic Case Report Form designed in REDCap.
 
+### Trial procedures and evaluations
 
 
 ### Retention <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/retention/)^ </font>
@@ -360,6 +408,35 @@ The sample size for this study is `r sampleSize`.
 **Data Forms and Data Entry**
 
 
+*Incident reporting system*
+The hospital incident reporting system will be accessed to calculate the number of falls that occurred in the participating wards during the study period. 
+
+
+*Canadian Patient Experience Survey - Inpatient Care*
+The Canadian Patient Experience Survey for inpatient care (CPES-IC) will be used to measure patient experience. This survey was developed by the Canadian Institute of Health Information. It combines items from the Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS) survey as well as item that address key areas relevant to the Canadian in-patient healthcare context. 
+
+An electronic case report form will be designed in REDCAP with fields entered for each item included in the CPES-IC.
+
+Could use the Patient Satisfaction with Nursing Care Quality Questionnaire.\cite{laschinger2005}
+
+On one randomly selected day per month at each participating ward, all patients scheduled for discharge will be invited to complete a patient experience survey unless they meet the following exclusion criteria:
+* Duration of hospital admission spanned more than one randomization period (i.e two calendar months)
+* Was admitted to a department in the Toronto General Hospital not participating in the study at any time during the current hospital admission 
+
+
+*Completeness of intentional rounding documentation*
+* An electronic case report form was designed in REDCAP with fields entered to capture the completeness of documentation about intentional rounding. A research coordinator will review the intentional rounding logs for 10 randomly selected patients on one randomly selected day each month in each of the participating wards. 
+
+
+*Electronic patient record*
+* Data about the demographic characteristics of the patients admitted to participating wards will be collected using queries of the electronic patient record. 
+
+*Call bell usage audit*
+* An electronic case report form was designed in REDCAP with fields entered to capture the number of times per hour that a call bell is used in participating wards. A research coordinator will undertake one hour-long audit on one randomly selected day each month in each of the participating wards. The time for the audit will be randomly selected between 0600 and 2200 hours.
+
+*Measurements:*
+* Number of calls
+* Time to attendance (calculated as the difference between the onset and offset of the call bell alert)
 
 
 **Data Transmission and Editing**
@@ -379,10 +456,15 @@ The sample size for this study is `r sampleSize`.
 ## Statistical methods
 
 ### Outcomes <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/outcomes/)^ </font>
+The primary analysis will be an intention-to-treat analysis of eligible patients assigned to one versus two hour intentional rounding based on the primary outcome of falls per 1000 days in hospital. An unadjusted incidence rate ratio, expressed as rate of falls per 1000 patient days in the one hour frequency periods/rate of falls per 1000 patient days in the two hour frequency period, will be calculated using poisson regression. An adjusted analysis will also be conducted to account for the following baseline characteristics: Age, sex, days elapsed since admission and admitting ward. 
 
+**Unit of analysis issues**
+ Some patients included in our study will have been admitted in a participating ward for a duration that spanned across more than one crossover period. It is also possible that patients will have been admitted to a ward in the Toronto General Hospital for a period of time during the admission that is not participating in the study. For the majority of outcomes in this trial, including the primary outcome of the number of falls, this is not an issue because there is no carryover effect of the intervention and the outcome will be counted only while the intervention is implemented. For example, consider hypothetically that the randomization sequence was such that patients in the participating wards would receive \textit{one-hour} intentional rounding in the month of May and \textit{two-hour} intentional rounding during the month of June. If a patient admitted to a participating ward had one fall in May and two falls in June, this would be included in the analysis as one fall for the \textit{\textit{one-hour}} group and two falls for the \textit{two-hour} group. 
+ 
+ The instrument to be used to measure patient satisfaction (CPES-IC) asks patients to rate their degree of satisfaction with different aspects of their hospital care throughout their admission. For this reason, patients whose hospitalization spans only one randomization period and is admitted solely to a participating ward will be included for the analysis of this outcome. 
+ 
 
 ### Additional analyses <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/additional-analyses/)^ </font>
-
 
 
 ### Analysis population and missing data <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/objectives/)^ </font>
@@ -514,3 +596,12 @@ N/A
 
 
 ## Biological specimens <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/biological-specimens/)^ </font>
+
+## Intentional Rounding log
+
+## Patient Experience Survey
+* Canadian Patient Experiences Survey
+
+## Call bell usage case report form
+
+## Intentional rounding documentation case report form
