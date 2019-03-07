@@ -3,7 +3,8 @@ title: "Research Protocol"
 subtitle: "Title of study goes here"
 author: "Version 1"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
-bibliography: PMCC.bib 
+bibliography: references.bib
+csl: nature.csl
 output:
   html_document:
     toc: true
@@ -218,7 +219,7 @@ int_desc_1 <- "Intentional rounding during the months assigned two-hour frequenc
 # INTRODUCTION
 
 ## Background and rationale <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/background-and-rationale/)^ </font>
-Intentional rounding is being implemented in healthcare settings across the globe. It has been stated that more than 400 healthcare systems in the United States has implemented intentional rounding usinng the methods outlines by the Studer Group.\cite{studer2007} In the United Kingdom, the NHS has  from the Francis report and in the US to improve patient satisfaction)\cite{francis2013report}
+Intentional rounding is being implemented in healthcare settings across the globe. It has been stated that more than 400 healthcare systems in the United States has implemented intentional rounding usinng the methods outlines by the Studer Group.\cite{studer2007} In the United Kingdom, the NHS has  from the Francis report and in the US to improve patient satisfaction.\cite{francis2013report}
 
 Bibliometric analysis of the published literature clearly demonstrate the increasing popularity of intentional rounding.\cite{hutchinson2017mapping} In the period between 2005 and 2015, there has been 38 separate studies published that evaluated some form on intentional rounding. A predominance of these studies has originated from the United States. \textit{Scripted} or \textit{structured} rounding dominated the literature as the most common method used to implement rounding. Several recent systematic reviews that have assessed the quality of studies that examined the effect of intentional rounding on patient outcomes have all highlighted the important point that further higher quality studies are required.\cite{christiansen2018intentional, toole2016systematic, hutchinson2017mapping, sims2018realist, flowers2016intentional} 
 
