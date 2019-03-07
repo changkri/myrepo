@@ -1,9 +1,9 @@
 ---
 title: "Research Protocol"
-subtitle: "Title of study goes here"
+subtitle: "One versus two hours intentional rounding: A pragmatic randomized multiple-crossover trial"
 author: "Version 1"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
-bibliography: references.bib
+bibliography: PMCC.bib
 csl: nature.csl
 output:
   html_document:
@@ -220,14 +220,14 @@ int_desc_1 <- "Intentional rounding during the months assigned two-hour frequenc
 
 ## Background and rationale <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/background-and-rationale/)^ </font>
 <<<<<<< HEAD:Protocol.Rmd
-Intentional rounding is being implemented in healthcare settings across the globe. It has been stated that more than 400 healthcare systems in the United States has implemented intentional rounding usinng the methods outlines by the Studer Group.@studer2007 In the United Kingdom, the NHS has  from the Francis report and in the US to improve patient satisfaction)\cite{francis2013report}
+Intentional rounding is being implemented in healthcare settings across the globe. It has been stated that more than 400 healthcare systems in the United States has implemented intentional rounding usinng the methods outlines by the Studer Group [@studer2007]. In the United Kingdom, the NHS has  from the Francis report and in the US to improve patient satisfaction [@francis2013report]. 
 =======
-Intentional rounding is being implemented in healthcare settings across the globe. It has been stated that more than 400 healthcare systems in the United States has implemented intentional rounding usinng the methods outlines by the Studer Group.\cite{studer2007} In the United Kingdom, the NHS has  from the Francis report and in the US to improve patient satisfaction.\cite{francis2013report}
+Intentional rounding is being implemented in healthcare settings across the globe. It has been stated that more than 400 healthcare systems in the United States has implemented intentional rounding usinng the methods outlines by the Studer Group [@studer2007] In the United Kingdom, the NHS has  from the Francis report and in the US to improve patient satisfaction [@francis2013report]
 >>>>>>> ff0c1caf8b1bfe8391743399193edb7e5ced4ec9:Protocol/Protocol.Rmd
 
-Bibliometric analysis of the published literature clearly demonstrate the increasing popularity of intentional rounding.\cite{hutchinson2017mapping} In the period between 2005 and 2015, there has been 38 separate studies published that evaluated some form on intentional rounding. A predominance of these studies has originated from the United States. \textit{Scripted} or \textit{structured} rounding dominated the literature as the most common method used to implement rounding. Several recent systematic reviews that have assessed the quality of studies that examined the effect of intentional rounding on patient outcomes have all highlighted the important point that further higher quality studies are required.\cite{christiansen2018intentional, toole2016systematic, hutchinson2017mapping, sims2018realist, flowers2016intentional} 
+Bibliometric analysis of the published literature clearly demonstrate the increasing popularity of intentional rounding [@hutchinson2017mapping]. In the period between 2005 and 2015, there has been 38 separate studies published that evaluated some form on intentional rounding. A predominance of these studies has originated from the United States. textit{structured} rounding dominated the literature as the most common method used to implement rounding. Several recent systematic reviews that have assessed the quality of studies that examined the effect of intentional rounding on patient outcomes have all highlighted the important point that further higher quality studies are required [@christiansen2018intentional; @toole2016systematic; @hutchinson2017mapping; @sims2018realist; @flowers2016intentional]. 
 
-Addressing the  intentional rounding \textit{evidence-void}, as it has been described by Hutchinson et al \cite{hutchinson2016intentional}, is vital. There have been \textbf{no} randomized trials conducted to evaluate either the effectiveness of intentional rounding in general or for specific components of how intentional rounding is implemented. Unfortunately this is not a unique situation for critical nursing interventions. For example, Cochrane reviews examining core nursing practices such as the effectiveness of repositioning for pressure ulcer reduction \cite{gillespie2014repositioning} and nursing handover processes\cite{lockwood2016best} identified only few studies. Richards et al\cite{richards2018fundamental} conducted a comprehensive systematic review that aimed to identify experimental studies examining the effects of nursing interventions for people's nutrition, elimination mobility and hygiene needs, which were deemed as \textit{fundamental nursing care}. Of 149 studies identified, all but 13 were low quality with significant risk of bias. Addressing this lack of evidence to inform core aspects of nursing care interventions in hospitals is achievable. Innovative research designs that incorporate strategies to minimize risk of bias when studying the effectiveness of alternative approaches to nursing care should be utilized. One way to accomplish this is to incorporate randomization into standard care so that routine data collected can be measured to compare the effectiveness of alternative approaches to nursing care. 
+Addressing the  intentional rounding \textit{evidence-void}, as it has been described by Hutchinson et al [@hutchinson2016intentional], is vital. There have been \textbf{no} randomized trials conducted to evaluate either the effectiveness of intentional rounding in general or for specific components of how intentional rounding is implemented. Unfortunately this is not a unique situation for critical nursing interventions. For example, Cochrane reviews examining core nursing practices such as the effectiveness of repositioning for pressure ulcer reduction [@gillespie2014repositioning]  and nursing handover processes [@lockwood2016best] identified only few studies. Richards et al. [@richards2018fundamental] conducted a comprehensive systematic review that aimed to identify experimental studies examining the effects of nursing interventions for people's nutrition, elimination mobility and hygiene needs, which were deemed as \textit{fundamental nursing care}. Of 149 studies identified, all but 13 were low quality with significant risk of bias. Addressing this lack of evidence to inform core aspects of nursing care interventions in hospitals is achievable. Innovative research designs that incorporate strategies to minimize risk of bias when studying the effectiveness of alternative approaches to nursing care should be utilized. One way to accomplish this is to incorporate randomization into standard care so that routine data collected can be measured to compare the effectiveness of alternative approaches to nursing care. 
 
 Based on this prior evidence, it is reasonable to hypothesize that there may be differences in patient outcomes between the frequency that intentional rounding is performed by nurses. 
 
@@ -236,11 +236,11 @@ Based on this prior evidence, it is reasonable to hypothesize that there may be 
 -Variation in components of intentional rounding (structured/unstructured, frequency, components, documentation)\\
 
 
-The completeness of documenting that all elements of intentional rounding has been shown to be poor.\cite{tucker2012outcomes}
+The completeness of documenting that all elements of intentional rounding has been shown to be poor [@tucker2012outcomes].
 
--Limitations in the evidence\\
+*Limitations in the evidence*
 
--Potential for adverse or unintended consequences to arise from implementation of intentional rounding. For example, a prominent finding reported in a realist synthesis of the literature about intentional rounding was that  nurses have explained that intentional rounding activities took up more time for complex and demanding patients, which consequently prioritized their needs over others.\cite{sims2018realist}
+-Potential for adverse or unintended consequences to arise from implementation of intentional rounding. For example, a prominent finding reported in a realist synthesis of the literature about intentional rounding was that  nurses have explained that intentional rounding activities took up more time for complex and demanding patients, which consequently prioritized their needs over others [@sims2018realist].
 
 
 ## Objectives <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/objectives/)^ </font>
@@ -249,7 +249,7 @@ To compare the effects of performing intentional rounding every one or two hours
 
 ## Trial design <font size="3">^[`r icon::fa_question_circle(size=0.1)`](http://www.spirit-statement.org/trial-design/)^ </font>
 
-A pragmatic, randomized multiple-crossover trial will be conducted. Numerous short periods with frequent crossovers was selected to minimize the risk of changes over time in the patient population and usual care confounding trial results. The approach of using multiple crossovers in a pragmatic trial to compare the effects of standard treatments applied in clinical practice is established and has been previously used, including a high profile study recently published in the New England Journal of Medicine.\cite{self2018} 
+A pragmatic, randomized multiple-crossover trial will be conducted. Numerous short periods with frequent crossovers was selected to minimize the risk of changes over time in the patient population and usual care confounding trial results. The approach of using multiple crossovers in a pragmatic trial to compare the effects of standard treatments applied in clinical practice is established and has been previously used, including a high profile study recently published in the New England Journal of Medicine [@self2018] 
 
 We decided that it is suitable to compare the effects of different frequencies of intentional rounding using a multiple crossover design because there is no risk of carryover effects. Intentional rounding will only have an effect on patient outcomes at the time it is being applied. Furthermore, compared with the prior observational studies conducted to evaluate the efficacy of intentional rounding, our trial design incorporates a randomization procedure to reduce risk of bias.
 
@@ -320,14 +320,14 @@ The frequency of intentional rounding for the study periods will be communicated
 
 >Secondary outcomes
 
-* Fall injury:
-** A fall injury is defined as an injury that results from a fall, which may or may not require treatment. The injury can be temporary or permanent and vary in the severity of harm. Fall injuries will be categorized as minor, moderate or severe, according to the hospital classification system.
+**Fall injury:**
+* A fall injury is defined as an injury that results from a fall, which may or may not require treatment. The injury can be temporary or permanent and vary in the severity of harm. Fall injuries will be categorized as minor, moderate or severe, according to the hospital classification system.
 
-* Completeness of documentation of intentional rounding: 
-** Log sheets have been developed by UHN for nurses to document which elements of intentional rounding have been performed. There is a checkbox for: .... (An example of the log sheet is provided in Section \ref{AppA}: Appendix A). The proportion of intentional rounding log sections completed at each rounding occurrence will be calculated. The proportion of rounding logs completed over a 24-hour period relative to the frequency of intentional rounding assigned to the randomization period (i.e. every one or two hours) will also be calculated. A composite of these two measures will also be calculated, being the proportion of the the total number of intentional rounding sections completed over the 24-hour period.
+**Completeness of documentation of intentional rounding:** 
+* Log sheets have been developed by UHN for nurses to document which elements of intentional rounding have been performed. There is a checkbox for: .... (An example of the log sheet is provided in Section \ref{AppA}: Appendix A). The proportion of intentional rounding log sections completed at each rounding occurrence will be calculated. The proportion of rounding logs completed over a 24-hour period relative to the frequency of intentional rounding assigned to the randomization period (i.e. every one or two hours) will also be calculated. A composite of these two measures will also be calculated, being the proportion of the the total number of intentional rounding sections completed over the 24-hour period.
 
-* Patient satisfaction:
-** Previous research found that rounding increased satisfaction across all subscales of  Hospital Consumer Assessment of Healthcare Providers and Systems.\cite{brosey2015effectiveness} 
+**Patient satisfaction:**
+* Previous research found that rounding increased satisfaction across all subscales of  Hospital Consumer Assessment of Healthcare Providers and Systems [@brosey2015effectiveness].  
 
 * Call bell requests to nursing staff
 
@@ -422,7 +422,7 @@ The Canadian Patient Experience Survey for inpatient care (CPES-IC) will be used
 
 An electronic case report form will be designed in REDCAP with fields entered for each item included in the CPES-IC.
 
-Could use the Patient Satisfaction with Nursing Care Quality Questionnaire.\cite{laschinger2005}
+Could use the Patient Satisfaction with Nursing Care Quality Questionnaire [@laschinger2005].
 
 On one randomly selected day per month at each participating ward, all patients scheduled for discharge will be invited to complete a patient experience survey unless they meet the following exclusion criteria:
 * Duration of hospital admission spanned more than one randomization period (i.e two calendar months)
